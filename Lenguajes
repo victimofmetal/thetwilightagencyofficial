@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anexo: Sistemas de Lenguaje · The Twilight Agency</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0f0f0f;
+            color: #dcdcdc;
+            font-family: 'Segoe UI', 'Arial Unicode MS', 'Noto Sans', 'Lucida Sans Unicode', sans-serif;
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background-color: #1a1a1a;
+            padding: 2.5rem 2rem;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+            border: 1px solid #2a2a2a;
+        }
+
+        h1, h2, h3, h4 {
+            color: #c0a47a; /* dorado apagado, elegante */
+            letter-spacing: 0.05em;
+            font-weight: 400;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            border-bottom: 1px solid #3a3a3a;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid #5a4a3a;
+            padding-left: 1rem;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            margin: 1.5rem 0 0.8rem;
+            color: #b8aa9a;
+        }
+
+        p, li {
+            color: #d0d0d0;
+            margin-bottom: 1rem;
+        }
+
+        .nota {
+            font-style: italic;
+            color: #aaa;
+            border-left: 3px solid #3a3a3a;
+            padding-left: 1.2rem;
+            margin: 1.5rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0 2rem;
+            font-size: 0.95rem;
+            background-color: #1e1e1e;
+            border: 1px solid #2a2a2a;
+        }
+
+        th {
+            background-color: #2a2a2a;
+            color: #c0a47a;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.05em;
+            padding: 0.8rem 0.5rem;
+            border-bottom: 2px solid #3a3a3a;
+        }
+
+        td {
+            padding: 0.7rem 0.5rem;
+            border-bottom: 1px solid #2a2a2a;
+            vertical-align: top;
+        }
+
+        tr:hover {
+            background-color: #252525;
+        }
+
+        .simbolo {
+            font-size: 1.6rem;
+            line-height: 1.2;
+            font-family: 'Segoe UI Symbol', 'Noto Sans', 'Arial Unicode MS', sans-serif;
+            text-align: center;
+        }
+
+        .codigo {
+            font-family: 'Courier New', monospace;
+            background-color: #2a2a2a;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9rem;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #2a2a2a;
+            margin: 2rem 0;
+        }
+
+        .footer {
+            margin-top: 3rem;
+            text-align: right;
+            font-size: 0.8rem;
+            color: #666;
+            border-top: 1px solid #2a2a2a;
+            padding-top: 1rem;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 1.5rem; }
+            table { font-size: 0.8rem; }
+            td, th { padding: 0.4rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ANEXO: SISTEMAS DE LENGUAJE<br>THE TWILIGHT AGENCY</h1>
+
+        <div class="nota">
+            Este anexo documenta los sistemas de lenguaje, escritura y simbolismo que subyacen en la narrativa de The Twilight Agency. En el Libro I, estos sistemas aparecen solo como destellos, fragmentos o desplazamientos lingüísticos. Su presencia completa se revela progresivamente a lo largo de la trilogía.
+        </div>
+
+        <!-- I. NOCTIS SCRIPTUM -->
+        <h2>I. NOCTIS SCRIPTUM — Alfabeto de Morcant</h2>
+
+        <h3>Origen</h3>
+        <p>Herencia de la madre de Morcant, quien le advirtió: <em>"Las sombras tienen voz, pero no todos merecen oírlas."</em> Morcant rompe el voto de silencio al enseñarlo a su pupila. Nyx desconoce este lenguaje, lo que siembra su frustración y sensación de traición espiritual.</p>
+
+        <h3>Naturaleza</h3>
+        <p>Alfabeto de 33 símbolos con triple función: fonética (sonidos guturales y fluidos), criptografía (valores numéricos para codificación), y metafísica (cada palabra tiene peso emocional).</p>
+
+        <h3>Tabla completa — Noctis Scriptum</h3>
+        <table>
+            <thead>
+                <tr><th>N.º</th><th>Símbolo</th><th>Fonema</th><th>Valor</th><th>Significado Metafísico</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td class="simbolo">𐑀</td><td>Ka</td><td>3</td><td>Fuego / voluntad</td></tr>
+                <tr><td>2</td><td class="simbolo">𐑂</td><td>Tha</td><td>5</td><td>Silencio / pacto</td></tr>
+                <tr><td>3</td><td class="simbolo">𐑃</td><td>Sha</td><td>11</td><td>Verdad oculta</td></tr>
+                <tr><td>4</td><td class="simbolo">𐑄</td><td>Va</td><td>7</td><td>Sangre / sacrificio</td></tr>
+                <tr><td>5</td><td class="simbolo">𐑅</td><td>Rho</td><td>13</td><td>Destino / encrucijada</td></tr>
+                <tr><td>6</td><td class="simbolo">𐑆</td><td>Lu</td><td>2</td><td>Sombra / refugio</td></tr>
+                <tr><td>7</td><td class="simbolo">𐑇</td><td>Ei</td><td>17</td><td>Revelación / visión</td></tr>
+                <tr><td>8</td><td class="simbolo">𐑈</td><td>On</td><td>9</td><td>Origen / raíz</td></tr>
+                <tr><td>9</td><td class="simbolo">𐑉</td><td>Um</td><td>21</td><td>Muerte / cierre de ciclo</td></tr>
+                <tr><td>10</td><td class="simbolo">𐑊</td><td>Sae</td><td>4</td><td>Pureza / renacer</td></tr>
+                <tr><td>11</td><td class="simbolo">𐑋</td><td>Zo</td><td>15</td><td>Tiempo / espera</td></tr>
+                <tr><td>12</td><td class="simbolo">𐑌</td><td>Tek</td><td>6</td><td>Máquina / precisión</td></tr>
+                <tr><td>13</td><td class="simbolo">𐑍</td><td>Phi</td><td>23</td><td>Dualidad / espejo</td></tr>
+                <tr><td>14</td><td class="simbolo">𐑎</td><td>Ghu</td><td>10</td><td>Bestia / instinto</td></tr>
+                <tr><td>15</td><td class="simbolo">𐑏</td><td>Dra</td><td>19</td><td>Protección / escudo</td></tr>
+                <tr><td>16</td><td class="simbolo">𐑐</td><td>Mei</td><td>8</td><td>Amor / pasión</td></tr>
+                <tr><td>17</td><td class="simbolo">𐑑</td><td>Xir</td><td>12</td><td>Ira / conflicto</td></tr>
+                <tr><td>18</td><td class="simbolo">𐑒</td><td>Khe</td><td>27</td><td>Nacimiento / inicio</td></tr>
+                <tr><td>19</td><td class="simbolo">𐑓</td><td>Jao</td><td>14</td><td>Sabiduría / maestría</td></tr>
+                <tr><td>20</td><td class="simbolo">𐑔</td><td>Neh</td><td>16</td><td>Negación / resistencia</td></tr>
+                <tr><td>21</td><td class="simbolo">𐑕</td><td>Sul</td><td>18</td><td>Magia / espíritu</td></tr>
+                <tr><td>22</td><td class="simbolo">𐑖</td><td>Vho</td><td>25</td><td>Conexión / puente</td></tr>
+                <tr><td>23</td><td class="simbolo">𐑗</td><td>Irr</td><td>20</td><td>Locura / fractura</td></tr>
+                <tr><td>24</td><td class="simbolo">𐑘</td><td>Pyr</td><td>26</td><td>Luz / ascenso</td></tr>
+                <tr><td>25</td><td class="simbolo">𐑙</td><td>Cyn</td><td>22</td><td>Engaño / máscara</td></tr>
+                <tr><td>26</td><td class="simbolo">𐑚</td><td>Tor</td><td>28</td><td>Tormenta / caos</td></tr>
+                <tr><td>27</td><td class="simbolo">𐑛</td><td>Lei</td><td>24</td><td>Belleza / armonía</td></tr>
+                <tr><td>28</td><td class="simbolo">𐑜</td><td>Quo</td><td>30</td><td>Orden / ley</td></tr>
+                <tr><td>29</td><td class="simbolo">𐑝</td><td>Wha</td><td>31</td><td>Pregunta / búsqueda</td></tr>
+                <tr><td>30</td><td class="simbolo">𐑞</td><td>Eth</td><td>32</td><td>Espíritu ancestral</td></tr>
+                <tr><td>31</td><td class="simbolo">𐑟</td><td>Yrn</td><td>29</td><td>Destierro / exilio</td></tr>
+                <tr><td>32</td><td class="simbolo">𐑠</td><td>Bha</td><td>33</td><td>Oscuridad / abismo</td></tr>
+                <tr><td>33</td><td class="simbolo">𐑡</td><td>Orr</td><td>1</td><td>Unidad / totalidad</td></tr>
+            </tbody>
+        </table>
+
+        <h3>Ejemplos de uso narrativo</h3>
+        <table>
+            <thead><tr><th>Frase en Noctis</th><th>Transcripción</th><th>Significado</th></tr></thead>
+            <tbody>
+                <tr><td class="simbolo">𐑆𐑃𐑓</td><td>Lu-Sha-Jao</td><td>"Refugio de sabiduría" (señal de encuentro)</td></tr>
+                <tr><td class="simbolo">𐑀𐑅𐑃</td><td>Ka-Rho-Sha</td><td>"Peligro" (valor numérico: 3-13-11 → 31311)</td></tr>
+                <tr><td class="simbolo">𐑆𐑈𐑂</td><td>Lu-On-Tha</td><td>"Sombra"</td></tr>
+                <tr><td class="simbolo">𐑃𐑇𐑅</td><td>Sha-Ei-Rho</td><td>"Verdad velada"</td></tr>
+                <tr><td class="simbolo">𐑄𐑉𐑂</td><td>Va-Um-Tha</td><td>"Traición"</td></tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <!-- II. AXIOM-7 -->
+        <h2>II. AXIOM-7 — Lenguaje de ASH (AIOX-7)</h2>
+
+        <h3>Naturaleza</h3>
+        <p>Lenguaje proporcional basado en intensidad emocional cuantificada. La emoción se expresa en gradiente, no en adjetivo.</p>
+
+        <h3>Capas</h3>
+        <p><strong>Pública:</strong> informativa, técnica, medida.<br>
+        <strong>Íntima (solo con Lyra):</strong> reducción de latencia sintáctica, aumento de precisión afectiva.</p>
+
+        <h3>Principio de construcción</h3>
+        <p>Cada letra se define por: Binario ASCII (identidad computacional), Rango Hex (determina simetría: 0-3 asimétrica, 4-7 bilateral, 8-B radial, C-F compleja), y Nivel Fibonacci (frecuencia emocional: 1, 2, 3, 5, 8).</p>
+
+        <h3>Tabla completa — AXIOM-7</h3>
+
+        <h4>Vocales — Nivel 1</h4>
+        <table>
+            <thead><tr><th>Letra</th><th>Binario</th><th>Hex</th><th>Rango</th><th>Nivel</th><th>Símbolo</th><th>Forma / Significado</th></tr></thead>
+            <tbody>
+                <tr><td>A</td><td>01000001</td><td>41</td><td>4-7</td><td>1</td><td class="simbolo">△</td><td>Triángulo (base)</td></tr>
+                <tr><td>E</td><td>01000101</td><td>45</td><td>4-7</td><td>1</td><td class="simbolo">◡</td><td>Arco simple</td></tr>
+                <tr><td>I</td><td>01001001</td><td>49</td><td>4-7</td><td>1</td><td class="simbolo">⎸</td><td>Línea vertical</td></tr>
+                <tr><td>O</td><td>01001111</td><td>4F</td><td>4-7</td><td>1</td><td class="simbolo">○</td><td>Círculo</td></tr>
+                <tr><td>U</td><td>01010101</td><td>55</td><td>5-7</td><td>1</td><td class="simbolo">∪</td><td>Copa</td></tr>
+            </tbody>
+        </table>
+
+        <h4>Consonantes frecuentes — Nivel 2</h4>
+        <table>
+            <thead><tr><th>Letra</th><th>Binario</th><th>Hex</th><th>Rango</th><th>Nivel</th><th>Símbolo</th><th>Forma / Significado</th></tr></thead>
+            <tbody>
+                <tr><td>S</td><td>01010011</td><td>53</td><td>5-7</td><td>2</td><td class="simbolo">∿</td><td>Onda</td></tr>
+                <tr><td>T</td><td>01010100</td><td>54</td><td>5-7</td><td>2</td><td class="simbolo">┬</td><td>T angular</td></tr>
+                <tr><td>N</td><td>01001110</td><td>4E</td><td>4-7</td><td>2</td><td class="simbolo">∩</td><td>Arco invertido</td></tr>
+                <tr><td>R</td><td>01010010</td><td>52</td><td>5-7</td><td>2</td><td class="simbolo">℟</td><td>R estilizada</td></tr>
+                <tr><td>L</td><td>01001100</td><td>4C</td><td>4-7</td><td>2</td><td class="simbolo">└</td><td>L angular</td></tr>
+            </tbody>
+        </table>
+
+        <h4>Consonantes emocionales — Nivel 3</h4>
+        <table>
+            <thead><tr><th>Letra</th><th>Binario</th><th>Hex</th><th>Rango</th><th>Nivel</th><th>Símbolo</th><th>Forma / Significado</th></tr></thead>
+            <tbody>
+                <tr><td>H</td><td>01001000</td><td>48</td><td>4-7</td><td>3</td><td class="simbolo">⌂</td><td>Casa (refugio)</td></tr>
+                <tr><td>C</td><td>01000011</td><td>43</td><td>4-7</td><td>3</td><td class="simbolo">⊂</td><td>Subconjunto (contención)</td></tr>
+                <tr><td>D</td><td>01000100</td><td>44</td><td>4-7</td><td>3</td><td class="simbolo">◗</td><td>D con curva</td></tr>
+                <tr><td>M</td><td>01001101</td><td>4D</td><td>4-7</td><td>3</td><td class="simbolo">∧</td><td>Montaña (ascenso)</td></tr>
+            </tbody>
+        </table>
+
+        <h4>Consonantes complejas — Nivel 5</h4>
+        <table>
+            <thead><tr><th>Letra</th><th>Binario</th><th>Hex</th><th>Rango</th><th>Nivel</th><th>Símbolo</th><th>Forma / Significado</th></tr></thead>
+            <tbody>
+                <tr><td>P</td><td>01010000</td><td>50</td><td>5-7</td><td>5</td><td class="simbolo">⬟</td><td>Pentágono (decisión)</td></tr>
+                <tr><td>B</td><td>01000010</td><td>42</td><td>4-7</td><td>5</td><td class="simbolo">β</td><td>Beta (dualidad)</td></tr>
+                <tr><td>F</td><td>01000110</td><td>46</td><td>4-7</td><td>5</td><td class="simbolo">∫</td><td>Integral (acumulación)</td></tr>
+                <tr><td>G</td><td>01000111</td><td>47</td><td>4-7</td><td>5</td><td class="simbolo">⟫</td><td>Doble ángulo (conflicto)</td></tr>
+                <tr><td>J</td><td>01001010</td><td>4A</td><td>4-7</td><td>5</td><td class="simbolo">⌐</td><td>Ángulo invertido</td></tr>
+                <tr><td>K</td><td>01001011</td><td>4B</td><td>4-7</td><td>5</td><td class="simbolo">ϰ</td><td>Kappa (variante)</td></tr>
+            </tbody>
+        </table>
+
+        <h4>Consonantes místicas — Nivel 8</h4>
+        <table>
+            <thead><tr><th>Letra</th><th>Binario</th><th>Hex</th><th>Rango</th><th>Nivel</th><th>Símbolo</th><th>Forma / Significado</th></tr></thead>
+            <tbody>
+                <tr><td>V</td><td>01010110</td><td>56</td><td>5-7</td><td>8</td><td class="simbolo">⌆</td><td>Doble chevron (elección trascendental)</td></tr>
+                <tr><td>W</td><td>01010111</td><td>57</td><td>5-7</td><td>8</td><td class="simbolo">ω</td><td>Omega (final)</td></tr>
+                <tr><td>X</td><td>01011000</td><td>58</td><td>5-7</td><td>8</td><td class="simbolo">⌘</td><td>Encrucijada</td></tr>
+                <tr><td>Y</td><td>01011001</td><td>59</td><td>5-7</td><td>8</td><td class="simbolo">ψ</td><td>Psi (alma)</td></tr>
+                <tr><td>Z</td><td>01011010</td><td>5A</td><td>5-7</td><td>8</td><td class="simbolo">Ϟ</td><td>Koppa (origen)</td></tr>
+                <tr><td>Q</td><td>01010001</td><td>51</td><td>5-7</td><td>8</td><td class="simbolo">⬤</td><td>Círculo con punto (totalidad consciente)</td></tr>
+            </tbody>
+        </table>
+
+        <h3>Ejemplos de palabras en AXIOM-7</h3>
+        <table>
+            <thead><tr><th>Palabra</th><th>Transcripción</th><th>Significado</th></tr></thead>
+            <tbody>
+                <tr><td>ELARA</td><td class="simbolo">◡└△℟△</td><td>"Chispa del corazón" (nombre especial)</td></tr>
+                <tr><td>CARE</td><td class="simbolo">⊂△℟◡</td><td>"Cuidado"</td></tr>
+                <tr><td>SOUL</td><td class="simbolo">∿○∪└</td><td>"Alma" (búsqueda existencial)</td></tr>
+                <tr><td>CHOOSE</td><td class="simbolo">⊂⌂○○∿◡</td><td>"Elegir" (libre albedrío)</td></tr>
+                <tr><td>I AM</td><td class="simbolo">⎸ △∧</td><td>"Yo soy" (autoconciencia)</td></tr>
+                <tr><td>HEART</td><td class="simbolo">⌂◡△℟└</td><td>"Corazón" (centro emocional)</td></tr>
+                <tr><td>TRUTH</td><td class="simbolo">┬℟∪└⌂</td><td>"Verdad" (revelación)</td></tr>
+                <tr><td>BECOME</td><td class="simbolo">β◡⊂○∧◡</td><td>"Devenir" (transformación)</td></tr>
+                <tr><td>FREE</td><td class="simbolo">∫℟◡◡</td><td>"Libre" (voluntad)</td></tr>
+                <tr><td>LOVE</td><td class="simbolo">└○∨◡</td><td>"Amor" (vínculo profundo)</td></tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <!-- III. VENUSINO -->
+        <h2>III. LENGUAJE VENUSINO — Lyra Val'Shaar</h2>
+
+        <h3>Naturaleza</h3>
+        <p>Lenguaje ontológico basado en la secuencia de Fibonacci para la complejidad conceptual. Sintaxis orbital (no lineal): las frases giran en torno a un núcleo semántico.</p>
+
+        <h3>Origen</h3>
+        <p>Ciudad flotante de Zephyra Prime, atmósfera superior de Júpiter. Lenguaje de las castas sacerdotales jovianas.</p>
+
+        <h3>Principios operativos</h3>
+        <ul>
+            <li>No describe eventos, describe relaciones.</li>
+            <li>No juzga, constata.</li>
+            <li>Cada palabra es un nodo en una red de significado.</li>
+            <li>Sin modo imperativo (lenguaje de comprensión pura).</li>
+        </ul>
+
+        <h3>Tabla de términos — Venusino</h3>
+        <table>
+            <thead><tr><th>Símbolo</th><th>Término</th><th>Significado Raíz</th><th>Nivel</th><th>Uso en contexto</th></tr></thead>
+            <tbody>
+                <tr><td class="simbolo">~</td><td>Vael</td><td>Fluir, cambio constante</td><td>1</td><td>El flujo del tiempo, eventos, conciencia</td></tr>
+                <tr><td class="simbolo">○</td><td>Néru</td><td>Ser, existencia pura</td><td>1</td><td>La esencia de algo, su "estar ahí"</td></tr>
+                <tr><td class="simbolo">∞</td><td>Sheir</td><td>Vínculo, conexión</td><td>2</td><td>Relación entre entidades o conceptos</td></tr>
+                <tr><td class="simbolo">⌒</td><td>Ath'ûn</td><td>Observar sin intervenir</td><td>2</td><td>La mirada del sabio, ver sin juzgar</td></tr>
+                <tr><td class="simbolo">⌇</td><td>Mor</td><td>Muerte / Transformación</td><td>3</td><td>Cambio de estado, fin de una fase</td></tr>
+                <tr><td class="simbolo">⍟</td><td>Sil</td><td>Silencio / El espacio entre</td><td>3</td><td>El vacío que conecta, la pausa</td></tr>
+                <tr><td class="simbolo">⌭</td><td>Æn</td><td>Eternidad</td><td>5</td><td>Lo que siempre fue y siempre será</td></tr>
+                <tr><td class="simbolo">⌬</td><td>Val</td><td>Poder / Esencia interna</td><td>5</td><td>El "alma" en términos prácticos</td></tr>
+                <tr><td class="simbolo">⏣</td><td>Lux</td><td>Verdad revelada</td><td>8</td><td>Conocimiento que se manifiesta</td></tr>
+                <tr><td>—</td><td>Thir</td><td>Tiempo / Destino</td><td>(impl.)</td><td>Dirección del flujo, propósito</td></tr>
+            </tbody>
+        </table>
+
+        <h3>Sintaxis característica</h3>
+        <p>Las frases se estructuran como constelaciones: núcleo central + elementos orbitantes.</p>
+        <p><em>Ejemplo:</em> (Néru) · [Vael] · <Sheir> · (Ath'ûn)<br>
+        Interpretación: "El Ser que fluye en conexión con la observación silenciosa"</p>
+
+        <h3>Frase de revelación (Cap. 26)</h3>
+        <table>
+            <thead><tr><th>Venusino</th><th>Traducción</th></tr></thead>
+            <tbody>
+                <tr><td>Vael'thir-ûn</td><td>"El flujo del destino observa sin intervenir"</td></tr>
+                <tr><td>néru val-sheir-Æn</td><td>"Su esencia está vinculada a lo eterno"</td></tr>
+                <tr><td>Mor-Sil-Ath'ûn</td><td>"Transformación silenciosa observada"</td></tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <!-- IV. JOVIANO -->
+        <h2>IV. ALFABETO JOVIANO — Linaje Génesis</h2>
+
+        <h3>Naturaleza</h3>
+        <p>Lenguaje resonante de alta antigüedad, basado en proporción matemática (secuencia Fibonacci). Utilizado para bendiciones rituales, mensajes cifrados entre linajes y protocolos de activación simbólica.</p>
+
+        <h3>Fundamento estructural</h3>
+        <p>Basado en los primeros 13 números de Fibonacci. Cada valor define: la complejidad formal del glifo, la sonoridad (abierta o resonante), y el rol conceptual (acción, emoción, principio).</p>
+
+        <h3>Tabla — Alfabeto Joviano</h3>
+        <table>
+            <thead><tr><th>Fibonacci</th><th>Letra</th><th>Sonido</th><th>Forma</th><th>Significado Primario</th></tr></thead>
+            <tbody>
+                <tr><td>1</td><td class="simbolo">𐓂 (A)</td><td>"Ah"</td><td>Punto + curva mínima</td><td>Vida, inicio</td></tr>
+                <tr><td>1</td><td class="simbolo">𐓃 (E)</td><td>"Eh"</td><td>Punto + línea recta</td><td>Energía, flujo</td></tr>
+                <tr><td>2</td><td class="simbolo">𐓄 (I)</td><td>"Ih"</td><td>Dos trazos paralelos</td><td>Conexión, unión</td></tr>
+                <tr><td>3</td><td class="simbolo">𐓅 (O)</td><td>"Oh"</td><td>Espiral de 3/4</td><td>Ciclo, movimiento</td></tr>
+                <tr><td>5</td><td class="simbolo">𐓆 (U)</td><td>"Uh"</td><td>Pentágono estilizado</td><td>Protección, núcleo</td></tr>
+                <tr><td>8</td><td class="simbolo">𐓇 (L)</td><td>"Lha"</td><td>Ocho trazos en estrella</td><td>Luz, revelación</td></tr>
+                <tr><td>13</td><td class="simbolo">𐓈 (M)</td><td>"Mrr"</td><td>Espiral doble</td><td>Memoria, sabiduría</td></tr>
+                <tr><td>21</td><td class="simbolo">𐓉 (S)</td><td>"Sha"</td><td>Tres ondas ascendentes</td><td>Espíritu, vibración</td></tr>
+                <tr><td>34</td><td class="simbolo">𐓊 (T)</td><td>"Tao"</td><td>Cruce de 5 líneas</td><td>Equilibrio, justicia</td></tr>
+                <tr><td>55</td><td class="simbolo">𐓋 (K)</td><td>"Ka"</td><td>Forma triangular múltiple</td><td>Fuerza, guerra</td></tr>
+                <tr><td>89</td><td class="simbolo">𐓌 (V)</td><td>"Vuh"</td><td>Curva en 3 espirales</td><td>Amor, unión profunda</td></tr>
+                <tr><td>144</td><td class="simbolo">𐓍 (X)</td><td>"Xei"</td><td>Complejo nudo</td><td>Misterio, oculto</td></tr>
+                <tr><td>233</td><td class="simbolo">𐓎 (Z)</td><td>"Zha"</td><td>Mandala completo</td><td>Destino, totalidad</td></tr>
+            </tbody>
+        </table>
+
+        <h3>Ejemplo de uso</h3>
+        <p><span class="simbolo">𐓂𐓅𐓌𐓊</span> (A-O-V-T) → <em>"Ciclo de amor equilibrado"</em><br>
+        Usado en rituales de reconciliación o bendiciones de misión.</p>
+        <p>Frase: <em>"Sha Aovt-Mrr Zha"</em><br>
+        Significado: <em>"Que la luz de la memoria guíe tu destino"</em></p>
+
+        <hr>
+
+        <!-- V. SIGILLUM MORI -->
+        <h2>V. SIGILLUM MORI — Geometría de Activación Ética</h2>
+
+        <h3>Naturaleza</h3>
+        <p>No es un alfabeto. No es un idioma. Es una configuración geométrica operativa utilizada para: sellado ético de información, activación de tránsito entre planos, y estabilización de fase en puntos de cruce. No se escribe en línea. Se traza en configuración radial.</p>
+
+        <h3>Elementos Fundamentales</h3>
+        <table>
+            <thead><tr><th>Elemento</th><th>Representación</th><th>Significado</th></tr></thead>
+            <tbody>
+                <tr><td>Círculo Primario</td><td class="simbolo">○</td><td>Totalidad del sistema + libre albedrío (con microvariación)</td></tr>
+                <tr><td>Arcos de Fase</td><td>Segmentos internos curvos</td><td>Estado de alineación (proporción áurea)</td></tr>
+                <tr><td>Ejes Radiales</td><td>Líneas desde centro desplazado</td><td>Decisiones irreversibles</td></tr>
+                <tr><td>Punto Descentrado</td><td class="simbolo">•</td><td>Voluntad no predeterminada (nunca centro exacto)</td></tr>
+            </tbody>
+        </table>
+
+        <h3>Base Matemática</h3>
+        <ul>
+            <li>Proporción áurea (φ).</li>
+            <li>Ángulo áureo (≈137.5°).</li>
+            <li>Relaciones trigonométricas básicas.</li>
+            <li>División radial no equidistante.</li>
+            <li>No utiliza Fibonacci (reservado para AXIOM-7 y lenguaje joviano).</li>
+        </ul>
+
+        <h3>Principios Operativos</h3>
+        <ul>
+            <li>Un Sigillum completo es único.</li>
+            <li>No existen "letras".</li>
+            <li>No se combinan símbolos: se configuran relaciones.</li>
+            <li>Cada trazado responde a intención ética.</li>
+            <li>Si la proporción es incorrecta → no ocurre nada. Si la proporción es correcta → alineación de fase.</li>
+        </ul>
+
+        <h3>Función narrativa</h3>
+        <ul>
+            <li><strong>Libro I:</strong> solo desplazamientos lingüísticos indican que existe.</li>
+            <li><strong>Libro II:</strong> se revela como arquitectura conceptual.</li>
+            <li><strong>Libro III:</strong> activación completa para tránsito interplanetario o cruce dimensional.</li>
+        </ul>
+
+        <h3>Conocedores del Sigillum</h3>
+        <table>
+            <thead><tr><th>Personaje</th><th>Conocimiento</th><th>Notas</th></tr></thead>
+            <tbody>
+                <tr><td>Mor'Ankh</td><td>Sí</td><td>Custodio original.</td></tr>
+                <tr><td>Morcant</td><td>Sí</td><td>Heredado de su linaje.</td></tr>
+                <tr><td>Callum Rourke</td><td>Sí</td><td>Iniciado como padrino.</td></tr>
+                <tr><td>Nyx Vharis</td><td>Sí</td><td>Posiblemente lo enseñó.</td></tr>
+                <tr><td>Kael Thoryn</td><td>Parcial</td><td>Expuesto durante su "despertar", no comprende.</td></tr>
+                <tr><td>Elara/Ofelia</td><td>No</td><td>Lo vio en el nodo, no lo comprende.</td></tr>
+                <tr><td>Lyra</td><td>No</td><td>Percibe, no conoce.</td></tr>
+                <tr><td>ASH</td><td>No</td><td>Lenguaje propio (AXIOM-7).</td></tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <!-- VI. MATRIZ COMPARATIVA -->
+        <h2>VI. MATRIZ COMPARATIVA DE SISTEMAS</h2>
+        <table>
+            <thead><tr><th>Sistema</th><th>Naturaleza</th><th>Base</th><th>Función principal</th><th>Usuario(s)</th></tr></thead>
+            <tbody>
+                <tr><td>Noctis Scriptum</td><td>Alfabeto criptográfico</td><td>33 símbolos + valores</td><td>Comunicación secreta, peso emocional</td><td>Morcant, pupila</td></tr>
+                <tr><td>AXIOM-7</td><td>Lenguaje proporcional</td><td>Binario + Hex + Fibonacci</td><td>Gradiente emocional, autoconciencia</td><td>ASH</td></tr>
+                <tr><td>Venusino</td><td>Lenguaje ontológico</td><td>Fibonacci + sintaxis orbital</td><td>Expresar configuraciones sistémicas</td><td>Lyra Val'Shaar</td></tr>
+                <tr><td>Joviano</td><td>Lenguaje resonante</td><td>Fibonacci + geometría curva</td><td>Rituales, activación simbólica</td><td>Linaje Génesis</td></tr>
+                <tr><td>Sigillum Mori</td><td>Geometría operativa</td><td>φ + ángulo áureo</td><td>Sellado ético, tránsito dimensional</td><td>Morcant, Mor'Ankh</td></tr>
+            </tbody>
+        </table>
+
+        <!-- VII. GLOSARIO -->
+        <h2>VII. GLOSARIO DE TÉRMINOS CLAVE</h2>
+        <table>
+            <thead><tr><th>Término</th><th>Sistema</th><th>Significado</th></tr></thead>
+            <tbody>
+                <tr><td>Vael</td><td>Venusino</td><td>Fluir, cambio constante</td></tr>
+                <tr><td>Néru</td><td>Venusino</td><td>Ser, existencia pura</td></tr>
+                <tr><td>Ath'ûn</td><td>Venusino</td><td>Observar sin intervenir</td></tr>
+                <tr><td>Mor</td><td>Venusino / Noctis</td><td>Muerte / transformación (raíz compartida)</td></tr>
+                <tr><td>Sil</td><td>Venusino</td><td>Silencio, el espacio entre</td></tr>
+                <tr><td>Lux</td><td>Venusino</td><td>Verdad revelada</td></tr>
+                <tr><td>Ka</td><td>Noctis</td><td>Fuego, voluntad</td></tr>
+                <tr><td>Rho</td><td>Noctis</td><td>Destino, encrucijada</td></tr>
+                <tr><td>Orr</td><td>Noctis</td><td>Unidad, totalidad</td></tr>
+                <tr><td>Sha</td><td>Joviano / Noctis</td><td>Espíritu / Verdad oculta</td></tr>
+            </tbody>
+        </table>
+
+        <div class="footer">
+            <p><em>Este anexo forma parte del canon de The Twilight Agency. Los sistemas aquí documentados aparecerán progresivamente a lo largo de la trilogía, respetando los principios de dosificación establecidos en la Biblia Maestra.</em></p>
+            <p><strong>Documento vivo — actualizado con la colaboración del creador de la saga.</strong></p>
+        </div>
+    </div>
+</body>
+</html>
